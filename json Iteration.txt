@@ -1,0 +1,45 @@
+var empObj = [{  
+    
+    "firstName": "Ajith",   
+    "lastName": "Kumar",   
+    "age": 25,  
+    },
+    {
+    "firstName": "Sarath",   
+    "lastName": "Kumar",   
+    "age": 22,  
+    },
+
+];
+
+
+// for loop
+for (let i =0; i <= empObj.length-1; i++) {
+    console.log(empObj[i].firstName);
+    console.log(empObj[i].lastName);
+    console.log(empObj[i].age);
+}
+
+// for in loop
+for(let i = 0; i <= empObj.length-1; i++) {
+    let obj = empObj[i];
+    for( let key in obj) {
+       console.log(key +" : " + obj[key]);
+    }
+}
+
+// for of loop
+for(let emp of empObj) {
+    console.log(emp.firstName);
+    console.log(emp.lastName);
+    console.log(emp.age);
+}
+
+
+// forEach loop
+
+empObj.forEach((emp) => {
+    console.log(emp.firstName);
+    console.log(emp.lastName);
+    console.log(emp.age);
+});

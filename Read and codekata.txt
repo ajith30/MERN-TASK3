@@ -1,0 +1,4 @@
+I did read about the difference between window, screen and document in javascript.
+
+And also practiced coding Problems in codekata.
+Till now I have completed Input/Output and Absolute Beginner section. And working on Basics and Mathematics section.
